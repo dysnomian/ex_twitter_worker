@@ -7,7 +7,7 @@ defmodule TwitterAdapter.TwitterAPI do
   ## Examples
 
       iex> TwitterAdapter.friends_for("derekharms")
-      168
+      [168]
 
   """
   def friends_for(username) do
